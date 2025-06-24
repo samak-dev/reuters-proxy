@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: reuters-proxy
+    env: python
+    buildCommand: ""
+    startCommand: python reuters_proxy.py
+    plan: free
+    region: oregon
